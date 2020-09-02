@@ -1,0 +1,2 @@
+# JavaPractice
+standard algorithms
