@@ -6,6 +6,8 @@
 // wait until the boolean variable changes in while loop
 // print and notify 
 
+// alternatively, you can use two object instances obj1 and obj2 for t1 and t2. In that case, you need to synchronization has to be on the boolean in both printOdd and printEven
+// synchronized (oddFlag) , oddFlag.wait(), oddFlag.notify();
 public class OddEvenTwoThreads {
     int MAX = 20;
     boolean oddFlag = true;
